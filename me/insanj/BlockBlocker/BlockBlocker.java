@@ -51,7 +51,7 @@ public class BlockBlocker extends JavaPlugin{
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 			
-		if(commandLabel.equalsIgnoreCase("bb")){
+		if(commandLabel.equalsIgnoreCase("block")){
 			generateConfig();
 			
 			if(sender instanceof Player)
@@ -96,7 +96,7 @@ main: me.insanj.BlockBlocker.BlockBlocker
 description: Doesn't allow any user to place a block against a sign.
 
 commands:
-   bb:
+   block:
      description: Generates the config file, to allow multiple blocked items.
      usage: /<command>
 
