@@ -1,0 +1,10 @@
+BlockBlocker - Don't Let Users Block Up Blocks!
+Version: v1.1
+
+After installing BlockBlocker, by default no user will be able to place any block against a sign. However, if the command "/bb" is issued, a configuration file will be generated inside your plugin folder. In there, just list all the MATERIALS you want blocked, and ta-da! All the materials in the game are supported, check the Bukkit documentation/list on Materials for the entire listing of what you can use.
+
+Features:
+Prevents placing blocks against listed signs.
+Generates a config on command (/bb), and prevents users from placing blocks against those materials!
+
+http://forums.bukkit.org/threads/misc-blockblocker-v1-0-dont-let-users-block-up-signs-1000.30767/#post-569950

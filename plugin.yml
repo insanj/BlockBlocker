@@ -1,0 +1,10 @@
+name: BlockBlocker
+version: 1.1
+author: insanj
+main: me.insanj.BlockBlocker.BlockBlocker
+description: Doesn't allow any user to place a block against a sign.
+
+commands:
+   bb:
+     description: Generates the config file, to allow multiple blocked items.
+     usage: /<command>
